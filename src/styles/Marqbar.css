@@ -1,0 +1,96 @@
+:root {
+	--col1-val: 218, 14%, 16%;
+	--col2-val: 0, 0%, 100%;
+}
+.marq-bar-outer {
+	width: min(750px, 60vw);
+	width: 85vw;
+	display: flex;
+	gap: 1rem;
+	background-color: hsl(var(--col2-val), 0.1);
+	padding-block: 0.5rem;
+	overflow: hidden;
+	padding-inline: 0.3rem;
+	margin-block: 0.5rem;
+	position: relative;
+}
+.marq-bar {
+	display: flex;
+	gap: 1rem;
+	transform: translateX(0);
+	animation: scroll var(--anim-speed) infinite linear var(--anim-direc, forwards);
+	/* animation-timeline: scroll(); */
+	/* animation-range: contain; */
+}
+.marq-bar-outer[data-anim-direc="left"] .marq-bar {
+	--anim-direc: forwards;
+}
+.marq-bar-outer[data-anim-direc="right"] .marq-bar {
+	--anim-direc: reverse;
+}
+.marq-bar-outer[data-anim-speed="slow"] .marq-bar {
+	--anim-speed: 15s;
+}
+.marq-bar-outer[data-anim-speed="mid"] .marq-bar {
+	--anim-speed: 10s;
+}
+.marq-bar-outer[data-anim-speed="fast"] .marq-bar {
+	--anim-speed: 7s;
+}
+.marq-bit {
+	padding: 0.4rem 1rem;
+	color: white;
+	background-color: hsl(218, 10%, 35%);
+	border-radius: 0.3rem;
+	text-transform: uppercase;
+	font-size: 1rem;
+}
+@media (prefers-reduced-motion: reduce) {
+	.marq-bar {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 1rem;
+		animation: none;
+	}
+	.marq-bar-outer:after {
+		display: none;
+	}
+}
+@media only screen and (max-width: 600px) {
+	.marq-bit{
+		font-size: .8rem;
+		padding: .2rem .5rem;
+	}
+}
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+
+}
+@media only screen and (min-width: 768px) and (max-width: 992px){
+	.marq-bit{
+		font-size: 1rem;
+		padding: .4rem 1rem;
+	}
+}
+@media only screen and (min-width: 992px) and (max-width: 1200px){
+	.marq-bit{
+		font-size: 1rem;
+		padding: .4rem 1rem;
+	}
+}
+@media only screen and (min-width: 1200px) and (max-width: 1440px) {
+	.marq-bit{
+		font-size: 1.2rem;
+		padding: .4rem 1rem;
+	}
+}
+@media only screen and (min-width: 1440px) {
+	.marq-bit{
+		font-size: 2rem;
+		padding: .4rem 1rem;
+	}
+}
+@keyframes scroll{
+	to {
+		transform: translate(calc(-50% - .5rem));
+	}
+}
