@@ -84,6 +84,7 @@
 
 .bio {
 	display: flex;
+	flex-wrap: wrap;
 	gap: 1rem;
 	color: hsl(var(--hr-col));
 }
