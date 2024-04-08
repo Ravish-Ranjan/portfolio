@@ -1,16 +1,17 @@
 import React, { Component } from "react";
+import loading from "../media/loading.gif"
 
 class Imgblk1 extends Component {
 	constructor(props) {
 		super(props);
 		this.state = {
-			src: "https://source.unsplash.com/random/300x400?Mountains",
+			src: loading,
 			alt: "mountains",
 		};
 	}
 	render() {
 		return (
-			<div>
+			<a href={this.props.href}>
 				<img
 					className="gal-img"
 					src={this.state.src && this.props.src}
@@ -18,7 +19,7 @@ class Imgblk1 extends Component {
 					loading="lazy"
 				></img>
 				<span className="gal-title oswald-font">{this.props.info}</span>
-			</div>
+			</a>
 		);
 	}
 }

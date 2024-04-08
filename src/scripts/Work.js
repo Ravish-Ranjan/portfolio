@@ -10,19 +10,23 @@ import pro8 from "../media/vid1.gif";
 import pro9 from "../media/todo.gif";
 import pro10 from "../media/weather.gif";
 import pro11 from "../media/fluke.png";
+import pro12 from "../media/quotes.png";
+import pro13 from "../media/mdpreview.png";
 
 let imgs = [
-	{src:pro1,info:"Otp Recivever"},
-	{src:pro2,info:"Login Form"},
-	{src:pro3,info:"Calender"},
-	{src:pro4,info:"qrcode maker"},
-	{src:pro5,info:"Control Panel"},
-	{src:pro6,info:"Marqee Bar"},
-	{src:pro7,info:"Music PLayer"},
-	{src:pro8,info:"Link Shortner"},
-	{src:pro9,info:"Note making app"},
-	{src:pro10,info:"Weather app"},
-	{src:pro11,info:"Fluke : movie streaming app"},
+	{src:pro13,info:"Markdown Previewer",href:"https://ravish-ranjan.github.io/markdown-previewer/"},
+	{src:pro12,info:"Random Quotes Generator",href:"https://ravish-ranjan.github.io/quotes/"},
+	{src:pro11,info:"Fluke : movie streaming app",href:""},
+	{src:pro4,info:"qrcode maker",href:""},
+	{src:pro9,info:"Note making app",href:""},
+	{src:pro7,info:"Music PLayer",href:""},
+	{src:pro1,info:"Otp Recivever",href:""},
+	{src:pro2,info:"Login Form",href:""},
+	{src:pro3,info:"Calender",href:""},
+	{src:pro5,info:"Control Panel",href:""},
+	{src:pro6,info:"Marqee Bar",href:""},
+	{src:pro8,info:"Link Shortner",href:""},
+	{src:pro10,info:"Weather app",href:""},
 ]
 
 function Work() {
@@ -32,7 +36,7 @@ function Work() {
 			<div className="gallery">
 				{
 					imgs.map((val,i) => {
-						return <Imgblk1 clas {...val} key={i}/>
+						return <Imgblk1 {...val} key={i}/>
 					})
 				}
 			</div>
