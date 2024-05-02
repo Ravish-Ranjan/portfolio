@@ -49,7 +49,9 @@ export function Footer() {
 							</div>
 
 							<div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-								<h6 className="text-uppercase fw-bold">Contact</h6>
+								<h6 className="text-uppercase fw-bold">
+									Contact
+								</h6>
 								<hr
 									className="mb-4 mt-0 d-inline-block mx-auto"
 									style={{

@@ -1,11 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./styles/index.css";
-import Home from "./scripts/Home.js";
-import Nav from "./scripts/Nav.js";
-import About from "./scripts/About.js";
-import Prog from "./scripts/Prog.js";
-import Work from "./scripts/Work.js";
+import { Home } from "./scripts/Home.js";
+import { Nav } from "./scripts/Nav.js";
+import { About } from "./scripts/About.js";
+import { Prog } from "./scripts/Prog.js";
+import { Work } from "./scripts/Work.js";
 import { Footer } from "./scripts/Footer.js";
 import reportWebVitals from "./reportWebVitals";
 import "bootstrap/dist/css/bootstrap.min.css";

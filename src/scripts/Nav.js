@@ -1,6 +1,6 @@
-import "../styles/Nav.css"
-import logo from "../media/logo.svg"
-function Nav(){
+import "../styles/Nav.css";
+import logo from "../media/logo.svg";
+export function Nav() {
 	return (
 		<div className="navbar oswald-font">
 			<div className="brand">
@@ -13,6 +13,5 @@ function Nav(){
 				<a href="#work">Work</a>
 			</div>
 		</div>
-	)
+	);
 }
-export default Nav;

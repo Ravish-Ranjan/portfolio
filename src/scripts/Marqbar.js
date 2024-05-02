@@ -1,37 +1,37 @@
 import "../styles/Marqbar.css";
-import React, { Component } from 'react';
+import { useEffect, useState } from "react";
 
-class Marqbar extends Component{
-	static defaultProps = {
-		itemList:[""]
-	}
-    constructor(props){
-        super(props);
-        this.state = {
-            prefersReducedMotion : !window.matchMedia("(prefers-reduced-motion: reduce)").matches
-        };
-    }
-    componentDidMount() {
-        const mediaQueryList = window.matchMedia("(prefers-reduced-motion: reduce)");
-        mediaQueryList.addEventListener("change", () => {
-            this.setState({ prefersReducedMotion: !mediaQueryList.matches });
-        });
-    }
-    render(){
-        const listrender = this.props.itemList.map((val,i) => <span key={i} className="marq-bit">{val}</span>);
-        return(
-            <div className="marq-bar-outer inline-shadow" 
-                data-anim-direc={this.props.direction}
-                data-anim-speed={this.props.speed}
-            >
-                <div className="marq-bar oswald-font">
-                    {listrender}
-                    {this.state.prefersReducedMotion && listrender} 
-                    {this.state.prefersReducedMotion && listrender} 
-                </div>
-            </div>
-        )
-    }
+export function Marq({ itemList, direction, speed }) {
+	const [prefersMotion, setPreferense] = useState(
+		!window.matchMedia("(prefers-reduced-motion: reduce)").matches
+	);
+
+	useEffect(() => {
+		const mediaQueryList = window.matchMedia(
+			"(prefers-reduced-motion: reduce)"
+		);
+		mediaQueryList.addEventListener("change", () => {
+			setPreferense(!mediaQueryList.matches);
+		});
+	}, [prefersMotion]);
+
+	const listrender = itemList.map((val, i) => (
+		<span key={i} className="marq-bit">
+			{val}
+		</span>
+	));
+
+	return (
+		<div
+			className="marq-bar-outer inline-shadow"
+			data-anim-direc={direction}
+			data-anim-speed={speed}
+		>
+			<div className="marq-bar oswald-font">
+				{listrender}
+				{prefersMotion && listrender}
+				{prefersMotion && listrender}
+			</div>
+		</div>
+	);
 }
-
-export default Marqbar;
