@@ -7,7 +7,6 @@ import { About } from "./scripts/About.js";
 import { Prog } from "./scripts/Prog.js";
 import { Work } from "./scripts/Work.js";
 import { Footer } from "./scripts/Footer.js";
-import reportWebVitals from "./reportWebVitals";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -21,5 +20,3 @@ root.render(
 		<Footer />
 	</React.StrictMode>
 );
-
-reportWebVitals();

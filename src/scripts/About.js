@@ -1,7 +1,17 @@
 import { Marq } from "./Marqbar.js";
 import someimg from "../media/prof.jpg";
 
-const skills = ["c","c++","python","java","html","css","js","php","mysql",];
+const skills = [
+	"c",
+	"c++",
+	"python",
+	"java",
+	"html",
+	"css",
+	"js",
+	"php",
+	"mysql",
+];
 
 export function About() {
 	return (

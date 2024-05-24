@@ -1,54 +1,67 @@
 [
 	{
 		"info": "Markdown Previewer",
-		"href": "https://ravish-ranjan.github.io/markdown-previewer/"
+		"href": "https://ravish-ranjan.github.io/markdown-previewer/",
+		"srcpath": "../media/mdpreview.png"
 	},
 	{
 		"info": "Random Quotes Generator",
-		"href": "https://ravish-ranjan.github.io/quotes/"
+		"href": "https://ravish-ranjan.github.io/quotes/",
+		"srcpath": "../media/quotes.png"
 	},
 	{
 		"info": "Fluke : movie streaming app",
-		"href": "#work"
+		"href": "#work",
+		"srcpath": "../media/fluke.png"
 	},
 	{
 		"info": "qrcode maker",
-		"href": "#work"
+		"href": "#work",
+		"srcpath": "../media/qrcode.png"
 	},
 	{
 		"info": "Note making app",
-		"href": "#work"
+		"href": "#work",
+		"srcpath": "../media/todo.gif"
 	},
 	{
 		"info": "Music PLayer",
-		"href": "#work"
+		"href": "#work",
+		"srcpath": "../media/song_player.png"
 	},
 	{
 		"info": "Otp Recivever",
-		"href": "#work"
+		"href": "#work",
+		"srcpath": "../media/otp_enter.png"
 	},
 	{
 		"info": "Login Form",
-		"href": "#work"
+		"href": "#work",
+		"srcpath": "../media/login_form.png"
 	},
 	{
 		"info": "Calender",
-		"href": "#work"
+		"href": "#work",
+		"srcpath": "../media/calender.png"
 	},
 	{
 		"info": "Control Panel",
-		"href": "#work"
+		"href": "#work",
+		"srcpath": "../media/settings.png"
 	},
 	{
 		"info": "Marqee Bar",
-		"href": "#work"
+		"href": "#work",
+		"srcpath": "../media/marq.png"
 	},
 	{
 		"info": "Link Shortner",
-		"href": "#work"
+		"href": "#work",
+		"srcpath": "../media/link.gif"
 	},
 	{
 		"info": "Weather app",
-		"href": "#work"
+		"href": "#work",
+		"srcpath": "../media/weather.gif"
 	}
 ]
