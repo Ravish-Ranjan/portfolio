@@ -1,6 +1,5 @@
 import { Marq } from "./Marqbar.js";
-import someimg from "../media/prof.jpg";
-
+import profilepic from "../media/prof.jpg"
 const skills = [
 	"c",
 	"c++",
@@ -24,7 +23,7 @@ export function About() {
 					apply my skills and knowledge to contribute to the success
 					of a well-regarded Organization.
 				</p>
-				<img src={someimg} alt="something"></img>
+				<img src={profilepic} alt="something"></img>
 			</div>
 			<Marq itemList={skills} direction="right" speed="slow" />
 		</div>

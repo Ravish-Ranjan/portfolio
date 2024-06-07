@@ -1,6 +1,5 @@
 import { Img } from "./Imgblk";
 import information from "../assets/projects.json";
-import Images from "./ImgExport";
 
 export function Work() {
 	return (
@@ -10,7 +9,13 @@ export function Work() {
 			</span>
 			<div className="gallery">
 				{information.map((val, i) => {
-					return <Img src={Images[i]} {...val} key={i} />;
+					return (
+						<Img
+							src={process.env.PUBLIC_URL + val.srcpath}
+							{...val}
+							key={i}
+						/>
+					);
 				})}
 			</div>
 			<span className="block-title"></span>

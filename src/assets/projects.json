@@ -2,66 +2,79 @@
 	{
 		"info": "Markdown Previewer",
 		"href": "https://ravish-ranjan.github.io/markdown-previewer/",
-		"srcpath": "../media/mdpreview.png"
+		"srcpath": "media/mdpreview.png",
+		"desc":"website to preview your markdown"
 	},
 	{
-		"info": "Random Quotes Generator",
+		"info": "Http-Codes",
+		"href": "https://ravish-ranjan.github.io/http-codes/",
+		"srcpath": "media/httpcodes.png",
+		"desc":"Ai generated image library of http status codes"
+	},
+	{
+		"info": "Quotes",
 		"href": "https://ravish-ranjan.github.io/quotes/",
-		"srcpath": "../media/quotes.png"
+		"srcpath": "media/quotes.png",
+		"desc":"a website for quotes which you can share with others"
 	},
 	{
-		"info": "Fluke : movie streaming app",
+		"info": "Fluke",
 		"href": "#work",
-		"srcpath": "../media/fluke.png"
+		"srcpath": "media/fluke.png",
+		"desc":"a platform to watch and download movies and shows"
 	},
 	{
 		"info": "qrcode maker",
 		"href": "#work",
-		"srcpath": "../media/qrcode.png"
+		"srcpath": "media/qrcode.png",
+		"desc":" a site to make and customize your qrcodes"
 	},
 	{
 		"info": "Note making app",
 		"href": "#work",
-		"srcpath": "../media/todo.gif"
+		"srcpath": "media/todo.gif",
+		"desc":""
 	},
 	{
 		"info": "Music PLayer",
 		"href": "#work",
-		"srcpath": "../media/song_player.png"
+		"srcpath": "media/song_player.png",
+		"desc":""
 	},
 	{
 		"info": "Otp Recivever",
 		"href": "#work",
-		"srcpath": "../media/otp_enter.png"
+		"srcpath": "media/otp_enter.png",
+		"desc":""
 	},
 	{
 		"info": "Login Form",
 		"href": "#work",
-		"srcpath": "../media/login_form.png"
-	},
-	{
-		"info": "Calender",
-		"href": "#work",
-		"srcpath": "../media/calender.png"
+		"srcpath": "media/login_form.png",
+		"desc":""
 	},
 	{
 		"info": "Control Panel",
 		"href": "#work",
-		"srcpath": "../media/settings.png"
+		"srcpath": "media/settings.png",
+		"desc":""
 	},
 	{
 		"info": "Marqee Bar",
 		"href": "#work",
-		"srcpath": "../media/marq.png"
+		"srcpath": "media/marq.png",
+		"desc":""
 	},
 	{
 		"info": "Link Shortner",
 		"href": "#work",
-		"srcpath": "../media/link.gif"
+		"srcpath": "media/link.gif",
+		"desc":""
 	},
 	{
 		"info": "Weather app",
 		"href": "#work",
-		"srcpath": "../media/weather.gif"
+		"srcpath": "media/weather.gif",
+		"desc":""
 	}
 ]

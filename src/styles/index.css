@@ -1,6 +1,3 @@
-/* @tailwind base; */
-/* @tailwind components; */
-/* @tailwind utilities; */
 :root {
 	--colbrand-val: 222, 16%, 12%;
 	--prog-col: 156, 72%, 67%;
@@ -12,7 +9,7 @@
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
-	/* outline: 2px solid limegreen;     */
+	/* outline: 2px solid limegreen; */
 	/* font-family: var(--def-font); */
 }
 body {
@@ -23,7 +20,6 @@ body {
 #root {
 	background-color: hsl(var(--colbrand-val));
 	min-height: 100dvh;
-	/* padding-bottom: 10rem; */
 	position: relative;
 	display: flex;
 	flex-direction: column;
@@ -31,22 +27,16 @@ body {
 	justify-content: flex-start;
 	scrollbar-gutter: auto;
 }
-/* ===== Scrollbar CSS ===== */
-/* Firefox */
 * {
 	scrollbar-width: thin;
 	scrollbar-color: hsl(var(--colbrand-val), 0.7) #aaa;
 }
-
-/* Chrome, Edge, and Safari */
 *::-webkit-scrollbar {
 	width: 10px;
 }
-
 *::-webkit-scrollbar-track {
 	background: #aaa;
 }
-
 *::-webkit-scrollbar-thumb {
 	background-color: hsl(var(--colbrand-val), 0.7);
 	border-radius: 0px;
