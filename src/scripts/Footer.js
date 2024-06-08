@@ -1,3 +1,5 @@
+import "../styles/Footer.css";
+
 export function Footer() {
 	return (
 		<div className="container-fluid my-5">
@@ -89,12 +91,7 @@ export function Footer() {
 					</div>
 				</section>
 
-				<div
-					className="text-center p-3"
-					style={{ backgroundColor: "rgba(0, 0, 0, 0.2)" }}
-				>
-					By : Ravish Ranjan
-				</div>
+				<div className="text-center p-3">By : Ravish Ranjan</div>
 			</footer>
 		</div>
 	);

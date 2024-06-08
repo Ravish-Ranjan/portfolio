@@ -1,5 +1,6 @@
 import "../styles/Nav.css";
-import logo from "../media/logo.svg"
+import logo from "../media/logo.svg";
+
 export function Nav() {
 	return (
 		<div className="navbar oswald-font">

@@ -1,5 +1,8 @@
 import { Marq } from "./Marqbar.js";
-import profilepic from "../media/prof.jpg"
+import profilepic from "../media/prof.jpg";
+import "../styles/About.css";
+import "../styles/Oswald.css";
+
 const skills = [
 	"c",
 	"c++",

@@ -1,9 +1,10 @@
 import { Img } from "./Imgblk";
 import information from "../assets/projects.json";
+import "../styles/Work.css";
 
 export function Work() {
 	return (
-		<div className="" id="work">
+		<div id="work">
 			<span className="block-title oswald-font-300">
 				<span>Projects</span>
 			</span>

@@ -99,50 +99,6 @@
 	text-wrap: pretty;
 }
 
-.about {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	min-height: 95dvh;
-	display: grid;
-	place-items: center;
-	margin-block: 3rem;
-	gap: 1rem;
-	width: 100%;
-}
-.marq-para {
-	--ht: 100vh;
-	max-height: var(--ht);
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-evenly;
-	align-items: center;
-	background-color: hsl(218, 10%, 30%);
-	color: white;
-	width: 90%;
-	padding: 1rem;
-	gap: 1rem;
-	animation: loadView linear;
-	animation-timeline: view();
-	animation-range: cover -20vh;
-}
-.marq-para > p {
-	max-width: 60ch;
-	text-wrap: pretty;
-	text-align: center;
-	font-size: 1.4rem;
-}
-.marq-para > p::first-letter {
-	color: hsl(var(--prog-col));
-	font-size: 3rem;
-	line-height: 100%;
-}
-.marq-para > img {
-	max-height: calc(var(--ht) * 0.6);
-	max-width: 100%;
-	object-fit: contain;
-}
 @keyframes loadView {
 	0%,
 	100% {
@@ -160,76 +116,6 @@
 	70% {
 		filter: contrast(1.2);
 	}
-}
-.gallery {
-	width: 98%;
-	display: flex;
-	flex-wrap: wrap;
-	gap: 1rem;
-	padding: 1rem;
-}
-.box {
-	flex: 1 0 300px;
-	min-width: 100px;
-	min-height: 20vh;
-	display: flex;
-	justify-content: flex-start;
-	gap: 1rem;
-	align-items: center;
-	outline: 0.15rem gray solid;
-	border-radius: 0.5rem;
-	cursor: pointer;
-	padding: 0 0.5rem;
-	transition: all 0.1s ease-in-out;
-}
-.box:hover,
-.box:focus {
-	outline-color: hsl(var(--hr-col));
-	outline-width: 0.3rem;
-}
-.box img {
-	object-fit: cover;
-	width: 18vh;
-	aspect-ratio: 1/1;
-}
-.box .title {
-	font-size: 1.25em;
-	text-decoration: none !important;
-}
-
-.box .description {
-	font-size: 0.75em;
-	color: rgb(199, 199, 199);
-	text-decoration: none !important;
-}
-#work {
-	display: grid;
-	place-items: center;
-}
-.block-title {
-	width: 100%;
-	text-align: center;
-	position: relative;
-	margin-block: 1rem 0;
-}
-.block-title > span {
-	color: white;
-	font-size: 3rem;
-	width: 10%;
-	z-index: 1;
-	position: relative;
-	padding-inline: 0.5rem;
-	background-color: hsl(var(--colbrand-val));
-}
-.block-title:before {
-	content: "";
-	display: block;
-	position: absolute;
-	top: 50%;
-	height: 0.25rem;
-	width: 100%;
-	background-color: hsl(var(--hr-col));
-	z-index: 0;
 }
 @media only screen and (max-width: 600px) {
 	.marq-para > p {
