@@ -38,7 +38,7 @@
 }
 .nav-links>a{
 	text-decoration: none;
-	color: rgb(var(--bs-link-color-rgb));
+	color: rgb(var(--bs-link-color-rgb)) !important;
 	font-size: 1.1rem;
 	padding-inline: .5rem;
 	transition: .3s ease-in ;
@@ -48,11 +48,11 @@
 	background-position: bottom center;
 }
 a:hover,a:active,a:focus{
-	color: hsl(var(--hr-col));
+	color: hsl(var(--hr-col)) !important;
 	background-size: calc(100% - 1rem) 3px;
 }
 .nav-links:has(:hover,:focus) a:not(:hover,:focus){
-	color: rgb(var(--bs-link-color-rgb),.5);
+	color: rgb(var(--bs-link-color-rgb),.5) !important;
 }
 .prog.container-fluid{
 	height: 3px;
