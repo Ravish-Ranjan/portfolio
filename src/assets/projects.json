@@ -24,22 +24,22 @@
 		"desc":"a platform to watch and download movies and shows"
 	},
 	{
-		"info": "qrcode maker",
+		"info": "Qrcode aker",
 		"href": "#work",
 		"srcpath": "media/qrcode.png",
 		"desc":" a site to make and customize your qrcodes"
 	},
 	{
-		"info": "Note making app",
+		"info": "Notes",
 		"href": "#work",
 		"srcpath": "media/todo.gif",
-		"desc":""
+		"desc":"a notes app to make notes and to-do list and store them locally"
 	},
 	{
 		"info": "Music PLayer",
 		"href": "#work",
 		"srcpath": "media/song_player.png",
-		"desc":""
+		"desc":"a designer music player to listen music"
 	},
 	{
 		"info": "Otp Recivever",
